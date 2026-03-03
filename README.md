@@ -1,17 +1,64 @@
-# myapp
+# Moug
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+**Moug** is a Flutter-based mobile application currently under development.  
+This project is being built as part of a structured training process to strengthen practical Flutter development skills and apply modern mobile engineering practices.
 
-This project is a starting point for a Flutter application.
+The application focuses on building scalable architecture, clean UI implementation, and efficient state management while following best development standards.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Project Objectives
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# moug
+The primary goals of this project are to:
+
+- Develop production-level Flutter UI components  
+- Apply clean architecture principles  
+- Implement proper state management  
+- Integrate external APIs and backend services  
+- Improve code organization and maintainability  
+- Enhance debugging and performance optimization skills  
+
+---
+
+## Tech Stack
+
+- **Flutter** – Cross-platform UI toolkit  
+- **Dart** – Programming language  
+- RESTful APIs – For data integration 
+- Firebase – Authentication / Database 
+
+---
+
+## Architecture & Practices
+
+The project follows best practices including:
+
+- Modular folder structure  
+- Separation of concerns  
+- Reusable components  
+- Responsive design principles  
+- Version control using Git  
+
+---
+
+## Project Status
+
+🚧 **Under Development**
+
+This is an active training project. Features are continuously being added and refined as part of ongoing learning and experimentation.
+
+---
+
+## Learning Focus
+
+Through Moug, the focus is on:
+
+- Writing clean, maintainable code  
+- Building scalable Flutter applications  
+- Improving software engineering fundamentals  
+- Applying real-world development workflows  
+
+
+
