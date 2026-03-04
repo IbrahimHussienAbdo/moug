@@ -5,13 +5,11 @@ class Moug extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Center(
-          child: Text(
-            'Hello World',
-            style: TextStyle(fontSize: 50, fontFamily: "Nunito"),
-          ),
+        body: SafeArea(
+          child: Center(child: Image.asset('assets/images/logo.png')),
         ),
       ),
     );
