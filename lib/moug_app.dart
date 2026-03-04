@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/core/helper/constants/app_constants.dart';
+import 'package:myapp/core/helper/spacing/spacing.dart';
 
 class Moug extends StatelessWidget {
   const Moug({super.key});
@@ -9,7 +11,15 @@ class Moug extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: SafeArea(
-          child: Center(child: Image.asset('assets/images/logo.png')),
+          child: Column(
+            children: [
+              Image.asset(AppConstants.logo),
+
+              verticalSpace(15),
+
+              Text('hi'),
+            ],
+          ),
         ),
       ),
     );
