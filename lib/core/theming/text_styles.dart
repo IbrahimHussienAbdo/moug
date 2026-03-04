@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 
 // Lora Font Styles
+
+const TextStyle loraRegular48 = TextStyle(
+  fontFamily: 'Lora',
+  fontWeight: FontWeight.normal,
+  fontSize: 48,
+);
+
 const TextStyle loraBold32 = TextStyle(
   fontFamily: 'Lora',
   fontWeight: FontWeight.bold,
