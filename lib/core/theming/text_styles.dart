@@ -14,6 +14,12 @@ const TextStyle loraBold32 = TextStyle(
   fontSize: 32,
 );
 
+const TextStyle loraRegular32 = TextStyle(
+  fontFamily: 'Lora',
+  fontWeight: FontWeight.normal,
+  fontSize: 32,
+);
+
 const TextStyle loraRegular24 = TextStyle(
   fontFamily: 'Lora',
   fontWeight: FontWeight.normal,
@@ -27,8 +33,26 @@ const TextStyle nunitoBold24 = TextStyle(
   fontSize: 24,
 );
 
+const TextStyle nunitoRegular18 = TextStyle(
+  fontFamily: 'Nunito',
+  fontWeight: FontWeight.normal,
+  fontSize: 18,
+);
+
 const TextStyle nunitoRegular16 = TextStyle(
   fontFamily: 'Nunito',
   fontWeight: FontWeight.normal,
+  fontSize: 16,
+);
+
+const TextStyle nunitoBold16 = TextStyle(
+  fontFamily: 'Nunito',
+  fontWeight: FontWeight.bold,
+  fontSize: 16,
+);
+
+const TextStyle nunitoMeduim16 = TextStyle(
+  fontFamily: 'Nunito',
+  fontWeight: FontWeight.bold,
   fontSize: 16,
 );
